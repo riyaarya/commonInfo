@@ -1,0 +1,4 @@
+System.setProperty("webdriver.gecko.driver","./Resource/geckodriver.exe");
+FirefoxProfile ffprofile = new FirefoxProfile();
+ffprofile.setPreference("dom.webnotifications.enabled", false);
+WebDriver driver = new FirefoxDriver(ffprofile);
