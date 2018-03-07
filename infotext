@@ -5,3 +5,6 @@ WebDriver driver = new FirefoxDriver(ffprofile);
 
 
 http://www.globalsqa.com/handle-browser-notification-selenium/
+
+
+https://stackoverflow.com/questions/38367762/how-to-handle-browser-level-notification-using-selenium-webdriver
