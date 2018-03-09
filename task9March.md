@@ -1,4 +1,6 @@
 #RedBus
+
+
 1: Click on profile icon and do signup
 2: After the successful signup find bus from Delhi to Dehradoon
 3: Select the date  using date time picker
@@ -9,8 +11,10 @@
 8: Enter passenger details and male and female radio button
 9: Check the price of final amount on pay screen and click on pay of price is higher than 600 only
 
+----------------------------------------------------------------------------------------------
 
 #Usefull links
+
 To use chrome
 https://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome
 
