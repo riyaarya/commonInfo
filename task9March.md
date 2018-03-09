@@ -51,3 +51,5 @@ WebDriver driver ;
         driver.get("your Web site"); 
 
 http://kb.mozillazine.org/Category:Preferences
+
+setPreference("dom.webnotifications.enabled", false);
