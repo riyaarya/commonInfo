@@ -53,3 +53,5 @@ WebDriver driver ;
 http://kb.mozillazine.org/Category:Preferences
 
 setPreference("dom.webnotifications.enabled", false);
+
+https://stackoverflow.com/questions/14201949/how-to-block-all-pop-ups-using-webdriver
