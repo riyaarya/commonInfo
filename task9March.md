@@ -1,4 +1,4 @@
-#RedBus
+# RedBus
 
 
 1: Click on profile icon and do signup
@@ -13,7 +13,7 @@
 
 ----------------------------------------------------------------------------------------------
 
-#Usefull links
+# Usefull links
 
 To use chrome
 https://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome
