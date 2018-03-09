@@ -36,3 +36,6 @@ https://www.guru99.com/handling-date-time-picker-using-selenium.html
 canvas
 https://sqa.stackexchange.com/questions/3253/how-to-automate-the-action-on-a-canvas-object-when-the-canvas-element-has-no-na
 https://chariotsolutions.com/blog/post/automated-testing-of-html5-canvas/
+
+Browser notifocation
+http://www.globalsqa.com/handle-browser-notification-selenium/
