@@ -49,3 +49,5 @@ WebDriver driver ;
         capabilities.setCapability(FirefoxDriver.PROFILE, profile);
         driver = new FirefoxDriver(capabilities);
         driver.get("your Web site"); 
+
+http://kb.mozillazine.org/Category:Preferences
