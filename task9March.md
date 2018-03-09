@@ -39,3 +39,13 @@ https://chariotsolutions.com/blog/post/automated-testing-of-html5-canvas/
 
 Browser notifocation
 http://www.globalsqa.com/handle-browser-notification-selenium/
+
+
+
+WebDriver driver ;
+        FirefoxProfile profile = new FirefoxProfile();
+        profile.setPreference("permissions.default.desktop-notification", 1);
+        DesiredCapabilities capabilities=DesiredCapabilities.firefox();
+        capabilities.setCapability(FirefoxDriver.PROFILE, profile);
+        driver = new FirefoxDriver(capabilities);
+        driver.get("your Web site"); 
