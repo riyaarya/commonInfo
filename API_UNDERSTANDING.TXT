@@ -1,0 +1,168 @@
+
+dekho before starting API testing we should know what is the following
+- What is an api
+- what is json
+- what is get methd
+- what is an post method
+- what is REStful API
+- what is SOAP API
+Shall we start now?
+Yes ok
+API is basically a function aise we se in programs to get some info or thingd to do in program
+but they can be called  using aan full URL
+Now a  days whatwvere the data is coming to a functional website they work on api only because it can be used at any device like iOS , Android and web
+for example lets  say we are making an app like cilrce where we need login right
+so these days we crearte an API login which accepts two values username and apssword.
+What the api will do is it will pass these parametere to this function and that function will do rest like match with db and response back 
+
+so 
+http://www.circlapp.com/api/login
+
+now the parameters can be passed in two ways 
+
+http://www.circlapp.com/api/login?username=riyaarya&password=123456
+
+ifyou see the above url its caled calling an api with Get mthod// wat is mean of this??? i will explai pehle ye dekho  ok
+
+http://www.circlapp.com/api/login
+
+but if you see the above url and still responsing back it is called POST method
+
+clear ril now?
+
+both get amd post are the request method for an HtTp reqyest 
+each url hit is called http request  like when we hit na any URL in browser its reqest to server with http protocol
+and get and post are two method to pass data to that
+let me show you 
+
+dekha 
+to each htpp request has two pasrt basically requesta nd response
+ok
+so these get and post method  are tyoe of request for http 
+ok
+ok
+abhi tak tak clear?
+Yes
+good now why we need api
+to understand it lets see the curretnt technology stack or architecture
+
+1- presentation layer
+
+so this is th pasrt we see like in html  or with angular these days we dont have to look into this. Just understand what the user see is this
+
+2- Business layer
+
+thiis imp because this defines api. Now as to complete any business need we need some functionality and we need data so thsi creates method which fetches data frim db and then guive to presenttation layer to produce result. And these method are called API
+
+3- Database or server layer
+
+This is database or server which hold the data
+
+
+now we know what is api and htpp requestaand methods
+
+An http response can be wither two type json or html 
+the examole i showed you is html response 
+[
+  {
+    "id": 1,
+    "title": "Hello"
+  }
+]
+ abive  is called the json response, so the API are alwyas using json because they vontain huge amount of data and they are light
+
+now if you see the above its looks like hash table or list that we studies in java right?
+Ok
+each jason has jason object which is enclosed in {} okay which has key and value pair ok
+ok
+now each json key can also be jason object for example
+the examole i showed you is html response 
+[
+  {
+    "id": 1,
+    "empinof": {
+         “empno”:”124”,
+         “emp name”:”riya”,
+          }
+}
+]
+
+some time when the data is too complex we get teh very comlex obejcts 
+abibe is very simle 
+
+
+
+no no any type of url resuest can be hit o on browser get and post we are identifying based n  how we are hitting see thi?
+Agar aise hit kare to this is get method and what we did is just a post method let me show you 
+i think ye jo website par setup hai isne kuch get setting kiya hai apne apne methd ke end me  go dekh if we are selecting  post its not giving anythung ok buth in get its giving
+
+dont wory about that ist just to autheticate ki coming from reliable source
+let  say i hum kisi aur app ka api hit ar rahe hai which is restrctec to company only to in that ye as token on header jata hai ki yes comng from our app only ahi to aise koi bhi kisis ka use kar lega 
+and open source ka yahi meaning hota hai
+ok but mje post nd get ni aya abi tk
+dont worry take it as type of request both are asame bus calling me diff hita in headers post mebina  ek mmin
+here you not getting because this is dummy request see this
+what hppn?
+Are room mate aa haya tha samne 
+tok deko ye jo link hai iske after ? Means ye get mthod use kar rahe h
+abhi confuse ho jaogi so stick ki these are two methods aof http request 
+bus ye jaan lo post is maximum used as it can  have not sure but 512mb of data and get ake bahut kam hita hai  ok
+512mb is what are 512 mega bits
+means itne data tk can store N?ono trasfer for ecxamoe lets say ki bahut darai pictures load ho rahi hai an and yu sending all picture in encoded format  and if there are huge image to unks encoding bhi jada hoga to ek request me itna data ta trasfer  kar sakta hai?
+Okok
+ok
+nin i ye to basic ho gaya now hum webservice creae karte ha which means creating these api to iske bhi bahut sare type hai
+two imp and most used are Restful api or webservices and SOAP Api or webservices
+achcha forgot to tell XML use hota tha pehle to data trasfer like we have json na pehle XML use hota tha but that was heavy in nature so its not used anymore but many thord party apps stil support Soa
+kuch aaya smajhme ?
+Ha
+so take these two as two mechanism for ceating webservices
+iske detail me you dont have to go as our target is testing 
+okay
+ok
+one more there two main http response are popular 
+200- means api is returing successful
+400 or 404 – means it is not successfull
+ye wala example karege ok
+wait..phle psotman nd soap ui p btao na selenium s bd me ye ana jruri h phle
+ok dekjo uske liye ek min  ok
+where?
+Ek min 
+ok
+now  see yhe differeneve i did not put parameter in url i just put
+https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3
+
+but i provided the parameter  and then see the url after clicking send how it looks like
+https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3?client_id=B2UXFAE3ATYWTNA0NRWV0XZQXPV0UT3M0JY0CWEMUCCNJV1J&client_secret=DZGP1DYCDZNQVGULYTPGO4JLJ3JXEWSOO5MLOY0ACDU04E53&v=20160201&m=foursquare
+
+but gara ye  app support karta post to parameter put karne ke bad bhi url chage nahi hota
+ok
+
+abhi clear ua post and get 
+ek br fon p bta dena ok g
+ab dekho post man koi rocket science nahi hai maximum use to yahi ho ta hai kyoki we get the response in proper format
+so the easily readable ok
+ok but ye jo hm postman s api test krte h isme as per response code we say ki api is PASS or fail?
+Ok to yes isme sable pahle ek code aat hai ye dekhop
+ye status ke base par karyte hai ek ki url chala ya nai 
+lets ki abhi maine client key me kuch mita diya and to resut ni aay na kuch and response me see
+ye aaya to http send status for request ye implicit ota hai a
+now the api developer write their own type of code so that they understand it kuch  log statts likhte hai lkuch log code likhte hai 
+to ek to ye do traike hue pass ya fail ke 
+and ak hota hai data authetication 
+like say fb ka api and i entered my namme and password and it gives me wrong profile name then response to aaya matab status will be 200  but the resukt as we should get is nit the one so it fails
+ok
+abhi hua clear
+ha
+good
+ab soap ui mujhe dekhna padeha maine soap ui nahi direct service use ki hai 
+sokdojo same ai but data presenatti me chnage hota bus
+ok
+abhi clar hua na api and all 
+ha but ek br kl pura fon p bta dena
+ok g
+abh dekho ye jp program mila tha ye yahi kar rah ahai 
+manual me to postman dekho and check kar liya data is correct or not
+automation me yahi response ko check karte hai dekho
+dekha
+
