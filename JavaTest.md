@@ -1,46 +1,46 @@
 
-What are Java Oop concept?
+1: What are Java Oop concept?
 
-what is the meaning of polymorphism?
+2: what is the meaning of polymorphism?
 
-what is function overloading?
+3: what is function overloading?
 
-what is function overriding?
+4: what is function overriding?
 
-What is inheritance?
+5: What is inheritance?
 
-Can you write example of inheritance?
+6: Can you write example of inheritance?
 
-What is constructor in Java?
+7: What is constructor in Java?
 
-What is the use of constructor?
+8: What is the use of constructor?
 
-How many constructor we can define in java?
+9: How many constructor we can define in java?
 
-Does Java provide constructor by its own or you have to write?
+10: Does Java provide constructor by its own or you have to write?
 
-What is abstract class?
+11: What is abstract class?
 
-what is the abstract method?
+12: what is the abstract method?
 
-What is the use of abstract class?
+13: What is the use of abstract class?
 
-What is interface?
+14: What is interface?
 
-Why use interface over abstract class?
+15: Why use interface over abstract class?
 
-What is exception handling in java?
+16: What is exception handling in java?
 
-What is try and catch?
+17: What is try and catch?
 
-Write the general syntax for try and catch?
+18: Write the general syntax for try and catch?
 
-What is the exception name if file is not able to locate?
+19: What is the exception name if file is not able to locate?
 
-What is use of static?
+20: What is use of static?
 
-What is Final and finally in java?
+21: What is Final and finally in java?
 
-When we use super keyword in java?
+22: When we use super keyword in java?
 
-Write an example of array list in java?
+23: Write an example of array list in java?
