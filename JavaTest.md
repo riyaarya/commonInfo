@@ -78,3 +78,6 @@ whihc can have its behavioru such as color, number of les kind of stuff
 or for example bmw cars are object of class vehicle 
 so class defines behaviour of vehicle
 in java its an encapsulation concept where the bahvor is in form of data and method and wrappedin unitcalled class
+
+27.what is object
+object is the instance of a class. For example if we define object of the class BMW class like bmw_1 it is an instance of class which has its state and property.
