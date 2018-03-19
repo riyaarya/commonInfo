@@ -44,3 +44,5 @@
 22: When we use super keyword in java?
 
 23: Write an example of array list in java?
+24.what is encapsulation
+ecapsulation is cncept of wrapping of data and method in single unit. IN java we achive this  by defining class where all the variables and method resides in class
