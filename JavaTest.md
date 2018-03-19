@@ -4,8 +4,32 @@
 2: what is the meaning of polymorphism?
 
 3: what is function overloading?
+Functon overloading  is polymosrphsihm concept in which there may be number of function with same name but they are invoked based on parameter passed to them. For example 
+the abive two function have same name sum but one sums the two integere values and second gives sum of three.
 
 4: what is function overriding?
+Overridding is a polymorphism concept in which subclass has  function with same name  as like super class. But when we inherit the supar class method gets overridden by subclass method.
+
+examople see this 
+
+class  car
+{
+    public void cartypeprint()
+   {
+ system.out.println(“Car Audi”);
+   }
+}
+class vehicle extends car
+{
+
+  public void cartypeprint()
+    {  
+    system.out.println(“Car BMW”);
+}
+}
+
+now if we create the object of class vehicle and we call cartypeprint it will print  “Car BMW”
+
 
 5: What is inheritance?
 
