@@ -68,5 +68,13 @@ now if we create the object of class vehicle and we call cartypeprint it will pr
 22: When we use super keyword in java?
 
 23: Write an example of array list in java?
+
 24.what is encapsulation
 ecapsulation is cncept of wrapping of data and method in single unit. IN java we achive this  by defining class where all the variables and method resides in class
+
+25.What is class
+Class is unit which defines the bahviour of the object for example if we see an example a dog is an object bloonging to animal class
+whihc can have its behavioru such as color, number of les kind of stuff
+or for example bmw cars are object of class vehicle 
+so class defines behaviour of vehicle
+in java its an encapsulation concept where the bahvor is in form of data and method and wrappedin unitcalled class
