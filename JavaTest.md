@@ -32,6 +32,11 @@ now if we create the object of class vehicle and we call cartypeprint it will pr
 
 
 5: What is inheritance?
+Inheritnavce is concpet or methododlogy using whihc  we inhrit the propety of one class into other class. For example if we say bmw is class and vehicle is a class here we see that bmw if type vehicle so it will inhrit the propety of vehicle 
+bmq inhrit priperty pf vehicle
+in Java achieve this usng extends keyword 
+<subclass> extends <super class>
+This improves the code reusabbility  
 
 6: Can you write example of inheritance?
 
