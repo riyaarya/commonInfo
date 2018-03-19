@@ -41,12 +41,34 @@ This improves the code reusabbility
 6: Can you write example of inheritance?
 
 7: What is constructor in Java?
+Constructor are the mthod which has same name as class name. Java automatically creates an construtor  evenif we dont define them. Its invoked when an object of class is initiated. There are basically two type of cinstrctor 
+1: default is one  created by even if we dont create that or we define but we dont pass any parameters just to initiae object.
+2: Parameterses is the function or constructor with parameteres it can have multile parametheres 
 
 8: What is the use of constructor?
+TO INITIATE THE OBJECT  basically but this is also used to set some dafault setting if we work with framwoek like reeader me kiya tha work book ke liye path setting
+OK G
 
 9: How many constructor we can define in java?
+We can define as many as we want but all should have either fifferent parameter or return type (constructor overloading)
 
 10: Does Java provide constructor by its own or you have to write?
+Yes it provideds even if we dont define one wich is invoked when we create objec
+
+are wehen we do like this
+
+Classname object name = new Classname()// this the one is invoking right when we are cteateing object
+dekho what i mean agar hum calss me koi constructor nai banate na to java khud ek constructor banata hai we generat dont see right?
+Ha
+to wo kab inovike hota ha jab hum object create karte hai 
+object kaise create karte hai 
+
+Classname object name = new Classname()/
+aise hi to karte hai na 
+ha
+to yahi to bol raha hoon ye jo classname() hai ye us construcyor ko call kar rah ahai 
+pahle copiler dekhta hai agar ye define hai class me tho thuk nahi to ye java wala use kar leta hai
+
 
 11: What is abstract class?
 
