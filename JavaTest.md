@@ -210,3 +210,43 @@ in java its an encapsulation concept where the bahvor is in form of data and met
 
 # 27.what is object
 object is the instance of a class. For example if we define object of the class BMW class like bmw_1 it is an instance of class which has its state and property.
+
+# 28:What is throw?
+
+# 29:what is throws?
+
+# 30: What is difference between throw and throws?
+
+# 31: Can you show one example of multilevel inhritence?
+
+# 32: Does Java supports Multiple inheritance and if yes then how?
+
+# 33: What is hashset, can you show one example?
+
+# 34: What are access modifiers in java? what is meaning of public?
+
+# 35: Create  a program to find biggest in all three numbers.
+
+# 36: Create a prpgram to revrese a given number.
+
+# 37: Create a program to find if the number is palindrome or not?
+
+# 38: Create a program to find if given string is palindrom or not, if the string is palindrome print the string in upper case.
+
+# 39: Create a program to compute sum of given n natural numbers.
+
+# 40: Create a program to find if the given number is prime or not.
+
+# 41: Create a program to find if the given number is armstrong number or not.
+
+# 42: Create a program to find first n fibancci series no.
+
+# 43: Create a program to count "s" in the string " My name is Riya Arya. I am a software Test Engineer".
+
+# 44: Create a program which finds if the given substring is there in the strinf or not for example 
+" My name if Riya Arya. I am a Software Test Engineer" in this string find Test if its true print the substring.
+
+# 45: Create a program which prints all the values from the list which has Modi 
+{" Narendra modi is prime Minister of India", "PM of India is unmarried", "Narendra modi is good Speaker", "PM of India is good friend of obama", "Modi govt top ministers"}
+
+
