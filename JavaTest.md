@@ -1,13 +1,13 @@
 
-1: What are Java Oop concept?
+# 1: What are Java Oop concept?
 
-2: what is the meaning of polymorphism?
+# 2: what is the meaning of polymorphism?
 
-3: what is function overloading?
+# 3: what is function overloading?
 Functon overloading  is polymosrphsihm concept in which there may be number of function with same name but they are invoked based on parameter passed to them. For example 
 the abive two function have same name sum but one sums the two integere values and second gives sum of three.
 
-4: what is function overriding?
+# 4: what is function overriding?
 Overridding is a polymorphism concept in which subclass has  function with same name  as like super class. But when we inherit the supar class method gets overridden by subclass method.
 
 examople see this 
@@ -31,28 +31,28 @@ class vehicle extends car
 now if we create the object of class vehicle and we call cartypeprint it will print  “Car BMW”
 
 
-5: What is inheritance?
+# 5: What is inheritance?
 Inheritnavce is concpet or methododlogy using whihc  we inhrit the propety of one class into other class. For example if we say bmw is class and vehicle is a class here we see that bmw if type vehicle so it will inhrit the propety of vehicle 
 bmq inhrit priperty pf vehicle
 in Java achieve this usng extends keyword 
 <subclass> extends <super class>
 This improves the code reusabbility  
 
-6: Can you write example of inheritance?
+# 6: Can you write example of inheritance?
 
-7: What is constructor in Java?
+# 7: What is constructor in Java?
 Constructor are the mthod which has same name as class name. Java automatically creates an construtor  evenif we dont define them. Its invoked when an object of class is initiated. There are basically two type of cinstrctor 
 1: default is one  created by even if we dont create that or we define but we dont pass any parameters just to initiae object.
 2: Parameterses is the function or constructor with parameteres it can have multile parametheres 
 
-8: What is the use of constructor?
+# 8: What is the use of constructor?
 TO INITIATE THE OBJECT  basically but this is also used to set some dafault setting if we work with framwoek like reeader me kiya tha work book ke liye path setting
 OK G
 
-9: How many constructor we can define in java?
+# 9: How many constructor we can define in java?
 We can define as many as we want but all should have either fifferent parameter or return type (constructor overloading)
 
-10: Does Java provide constructor by its own or you have to write?
+# 10: Does Java provide constructor by its own or you have to write?
 Yes it provideds even if we dont define one wich is invoked when we create objec
 
 are wehen we do like this
@@ -70,15 +70,15 @@ to yahi to bol raha hoon ye jo classname() hai ye us construcyor ko call kar rah
 pahle copiler dekhta hai agar ye define hai class me tho thuk nahi to ye java wala use kar leta hai
 
 
-11: What is abstract class?
+# 11: What is abstract class?
 
-12: what is the abstract method?
+# 12: what is the abstract method?
 
-13: What is the use of abstract class?
+# 13: What is the use of abstract class?
 
-14: What is interface?
+# 14: What is interface?
 
-15: Why use interface over abstract class?
+# 15: Why use interface over abstract class?
 
 # 16: What is exception handling in java?
 
@@ -156,6 +156,17 @@ class Honda1 extends Bike{
 
 above code will give error
 
+--------------------------------------------------------------
+On the other hand finally is adjacent block to try catch which runs without being effected from what happened in the try block or the Catch block.
+try
+{
+
+}Catch()
+{
+}
+finally
+{
+}
 
 
 # 22: When we use super keyword in java?
@@ -179,17 +190,23 @@ bark();
 }  
 } 
 
-23: Write an example of array list in java?
+# 23: Write an example of array list in java?
+Array list is the collection similar data elements which can be defined by the following way -
+ArrayList<Integer> possibleValues2 =
+    new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+    
+    or
+ ArrayList<Integer> possibleValues2 = new ArrayList();
 
-24.what is encapsulation
+# 24.what is encapsulation
 ecapsulation is cncept of wrapping of data and method in single unit. IN java we achive this  by defining class where all the variables and method resides in class
 
-25.What is class
+# 25.What is class
 Class is unit which defines the bahviour of the object for example if we see an example a dog is an object bloonging to animal class
 whihc can have its behavioru such as color, number of les kind of stuff
 or for example bmw cars are object of class vehicle 
 so class defines behaviour of vehicle
 in java its an encapsulation concept where the bahvor is in form of data and method and wrappedin unitcalled class
 
-27.what is object
+# 27.what is object
 object is the instance of a class. For example if we define object of the class BMW class like bmw_1 it is an instance of class which has its state and property.
