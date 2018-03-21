@@ -80,19 +80,104 @@ pahle copiler dekhta hai agar ye define hai class me tho thuk nahi to ye java wa
 
 15: Why use interface over abstract class?
 
-16: What is exception handling in java?
+# 16: What is exception handling in java?
+
+Exception handling a methodology using which we try to minimize the unwanted behaviour or control the unwanted behavior of the program or software. Java provides exception handling class which has defined set of exceptions as well as we can alos define the special exception or condition.
 
 17: What is try and catch?
+Using Try and Catch we handle the exception in java. Basically the code that can possibly throw error we put in Try block and if that exception or error occured then its catch by Catch block.
 
-18: Write the general syntax for try and catch?
+Example:
 
-19: What is the exception name if file is not able to locate?
+try
+{
+num=i/m;// if m is 0 it will catch divide by 0 exception 
 
-20: What is use of static?
+}catch(Exception e)
+{
 
-21: What is Final and finally in java?
+}
 
-22: When we use super keyword in java?
+# 18: Write the general syntax for try and catch?
+try{
+/*
+Code that can possibly throw error
+*/
+}catch()
+{
+/*
+code that will perform damage control or do something when the exception is caught
+*/
+}
+
+# 19: What is the exception name if file is not able to locate?
+
+When the program is not able to locate file or file path is wrong it will Senf FileNotFoundException
+
+# 20: What is use of static?
+
+Static is keyword in java which is used to memory management. Any variable, method or class can be defined static, once its defined static its allocated only once and then from that memory only its used. 
+
+For better example see this page and the image at down - https://www.javatpoint.com/static-keyword-in-java
+
+# 21: What is Final and finally in java?
+
+Final is the keyword which is used to make any variable, method or class constant or rigid state which have restricts the normal use 
+
+- if the variable is defined as Final and assigned a value its value can not be changed in any condition
+- if a method is defined Final it can not be overridden when extendsto other class, meaning lets say if the class  has a method like this
+
+class Bike{  
+  final void run(){System.out.println("running");}  
+}  
+     
+class Honda extends Bike{  
+   void run(){System.out.println("running safely with 100kmph");}  
+     
+   public static void main(String args[]){  
+   Honda honda= new Honda();  
+   honda.run();  
+   }  
+}  
+in this even if we extends the class bike and then define run again in this method, the run of super class cant be overridden.
+
+- if the class is defined Final we cant not extend that class
+
+final class Bike{}  
+  
+class Honda1 extends Bike{  
+  void run(){System.out.println("running safely with 100kmph");}  
+    
+  public static void main(String args[]){  
+  Honda1 honda= new Honda1();  
+  honda.run();  
+  }  
+} 
+
+above code will give error
+
+
+
+# 22: When we use super keyword in java?
+Super keyword is used in the subclass when two methods are overridden. Its used to get the access or functionality of overridden method of super class.
+
+Example:
+class Animal
+{  
+    void eat()
+    {
+    System.out.println("eating...");
+    }  
+}  
+class Dog extends Animal
+{  
+void eat(){System.out.println("eating bread...");}  
+void bark(){System.out.println("barking...");}  
+void work(){  
+super.eat();  
+bark();  
+}  
+} 
 
 23: Write an example of array list in java?
 
