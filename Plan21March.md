@@ -23,7 +23,7 @@ Create a program to compute sum of given n natural numbers.
 
 # 3: SQL
 
-Get all the supplier name Contact name start with Ch and ends with or 
+Get all the supplier name Contact name from supplier table in which Contactname  start with "Ch" and ends with "or" 
 
 
 
