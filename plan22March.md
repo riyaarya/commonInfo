@@ -10,7 +10,7 @@ Add reporting using maven XML
 
 
 
-# 2:Java
+# 2: Java
 
 20: What is use of static?
 
