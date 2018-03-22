@@ -77,6 +77,7 @@ pahle copiler dekhta hai agar ye define hai class me tho thuk nahi to ye java wa
 # 13: What is the use of abstract class?
 
 # 14: What is interface?
+interface is a reference type in java which has similar structie as class. Its is deckared with interface key word. It contains abstarct methiod,  variable same as class. Basically a collection of abstract methods. Its used when we dont know exactly the defination of method while creating wih respect to different classes.
 
 # 15: Why use interface over abstract class?
 
