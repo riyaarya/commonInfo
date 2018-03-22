@@ -219,8 +219,42 @@ object is the instance of a class. For example if we define object of the class 
 # 30: What is difference between throw and throws?
 
 # 31: Can you show one example of multilevel inhritence?
+we can acheive multiple inheritance in java using interface
+ok see this
 
-# 32: Does Java supports Multiple inheritance and if yes then how?
+interface x1
+{
+default void show();
+}
+interface x2
+{
+ default void show_x2();
+
+}
+
+class abc implements x1,x2
+{
+
+}
+
+# 32: Does Java supports Multiple inheritance and if yes then how
+we can acheive multiple inheritance in java using interface ha kaise
+ok see this
+
+interface x1
+{
+default void show();
+}
+interface x2
+{
+ default void show_x2();
+
+}
+
+class abc implements x1,x2
+{
+
+}
 
 # 33: What is hashset, can you show one example?
 
