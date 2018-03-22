@@ -37,6 +37,9 @@ print the following
 3:product name
 4:Category name
 
+SELECT count(OrderDetails.Quantity) as ordered,Products.ProductID,Products.ProductName,Categories.CategoryName from ((OrderDetails inner join  Products on OrderDetails.ProductID = Products.ProductID)inner join Categories on Categories.CategoryID = Products.CategoryID) group by OrderDetails.ProductID order by ordered 
+
+
 B
 ---
 Write thr sql query which shows all product which is been ordered more than 50. Meaning the products whose total quantity in orders is more than 50
