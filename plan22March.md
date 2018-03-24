@@ -51,7 +51,13 @@ print the following(Using having clause)
 C
 ------
 Write all country name and cities name from Suppliers and Customers
+SELECT Country,City FROM Customers
+union
+SELECT Country,City FROM Suppliers
 
 D
 ---------
 Update the Name of supplier which resides in UK and whose name start with S, meanig chnage name of the supplier name to Jatin Arya
+
+Update Suppliers SET SupplierName = 'Jatin'
+where SupplierName = '%S'
