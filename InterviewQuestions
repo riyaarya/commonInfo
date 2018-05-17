@@ -1,0 +1,71 @@
+1: What is selenium RC and what are the advantages?
+2: How can you install selenium in the system?
+3: What is version control system?
+4: What version control you use? 
+5: What is the use of  maven?
+6: How do you setup maven for selenium project?
+7: What is JDK and eclipse? which version of the JDK you are using?
+8: What is the use of XML file in maven?
+9: What is the use of TestNG?
+10: Have you worked with Jmeter or Junit and what are they?
+11: Have you worked on DDT and POM ?
+12: What is DDT?
+13: What is the POM?
+14: How do you use excel file as input of data in the selenium?
+
+15:  How do you use browser dependency in selenium?
+16: What are the different ways to access the elements in the Selenium?
+17: What is the use of wait or explicit wait? what is difference between implicit and explicit wait?
+18: How do you select a selected checkbox and radio button in selenium?
+19: How do you work with iframe in selenium?
+20: What kind of error you get when a file is not at the location that we need?
+21 : What is return type of testng @DataProvider annotation method? 
+
+Answer : It will return double object array “Object[][]”.
+
+
+
+
+
+
+
+
+
+Java
+1: Which version of java you are using right now?
+2: What are the oops main concept?
+3: What is polymorphism?
+4: What is inheritance?
+5: What is abstraction?
+6: What is method overloading?
+7: What is method overriding?
+7a: What is constructor and how its different from method?
+7b: Can a constructor be different name than class name?
+NO
+7c: What is constructor overriding?
+7e: How many type of constructor are there in java?
+7f: What is use of this object?
+7d: What is the use of local and global variable in java?
+7g: What is a package?
+Answer : A package is a namespace which allows developer to organizes a group of related classes and interfaces. Conceptually it is just like folder which contains different types of files. It is easy to keep things organised by keeping related classes and interfaces into packages.
+8: How does java support the multiple inheritance in java?
+8a:Can we use private member of parent class in sub class?
+9: What is the use of exception handling?
+10: What are the different ways to handle expection?
+11: What is use of final, finally and super?
+12:  What is use of catch block?
+13: What is use of throws and explain with and example?
+14: How throw is different than throws?
+15: What is the use of collection framework in java?
+16: What is the concept of threading in java?
+17: what are the different ways of threading in java?
+18: Explain file handling in java?
+19: What is interface in java?
+20: What is array in java?
+21:Can we access protected method of parent class in sub class? 
+
+
+
+
+
+
