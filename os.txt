@@ -1,0 +1,151 @@
+
+2- 6,8,9,12,13,14,16,17,18(may be),19,20,23,24,25-30,37,38
+
+Operating System Interview Question
+A list of top frequently asked Operating System interview questions and answers are given below.
+
+1) What is an operating system?
+The operating system is a software program that facilitates computer hardware to communicate and operate with the computer software. It is the most important part of a computer system without it computer is just like a box.
+
+2) What is the main purpose of an operating system?
+There are two main purposes of an operating system:
+
+It is designed to make sure that a computer system performs well by managing its computational activities.
+It provides an environment for the development and execution of programs.
+
+3) What are the different operating systems?
+Batched operating systems
+Distributed operating systems
+Timesharing operating systems
+Multi-programmed operating systems
+Real-time operating systems
+
+4) What is a socket?
+A socket is used to make connection between two applications. Endpoints of the connection are called socket.
+
+5) What is a real-time system?
+Real-time system is used in the case when rigid-time requirements have been placed on the operation of a processor. It contains a well defined and fixed time constraints.
+
+6) What is kernel?
+Kernel is the core and most important part of a computer operating system which provides basic services for all parts of the OS.
+8) What do you mean by a process?
+An executing program is known as process. There are two types of processes:
+
+Operating System Processes
+User Processes
+
+9) What are the different states of a process?
+A list of different states of process:
+
+New Process
+Running Process
+Waiting Process
+Ready Process
+Terminated Process
+
+
+12) What is the difference between process and program?
+A program while running or executing is known as a process.
+
+13) What is the use of paging in operating system?
+Paging is used to solve the external fragmentation problem in operating system. This technique ensures that the data you need is available as quickly as possible.
+
+14) What is the concept of demand paging?
+Demand paging specifies that if an area of memory is not currently being used, it is swapped to disk to make room for an application's need.
+
+
+or kya krna h abi?
+memory leak padh lo bahut puchte hai
+in os?
+java me hota hai 
+saearccch h
+a
+
+thoda sa bta do..
+ok
+dekho 
+some times in java when there are so manty objects 
+ek min
+k
+ufff
+dekho when the there are tooo many object and its not being used but have valid refernce then java ka garnage collector isko valid samajhta hai
+and cant destroy it 
+these not being used objects are called as the memory leak
+ok
+aaya
+haok good
+bs yhi h isme?ha 
+or isme scnerio b to puche h us pankaj ki mail me
+achcha to isko os ke terms me bhi dekhna padgeega
+
+ye padho same hai but here objecr is kind of applucation
+read
+ok
+
+A memory leak is the gradual loss of available computer memory when a program (an application or part of the operating system) repeatedly fails to return memory that it has obtained for temporary use. As a result, the available memory for that application or that part of the operating system becomes exhausted and the program can no longer function. For a program that is frequently opened or called or that runs continuously, even a very small memory leak can eventually cause the program or the system to terminate. A memory leak is the result of a program bug
+ok
+
+16) What is virtual memory?
+Virtual memory is a very useful memory management technique which enables processes to execute outside of memory. This technique is especially used when an executing program cannot fit in the physical memory.
+
+17) What is thrashing?
+Thrashing is a phenomenon in virtual memory scheme when the processor spends most of its time in swapping pages, rather than executing instructions.
+
+18) What are the four necessary and sufficient conditions behind the deadlock?
+These are the 4 conditions:
+
+1) Mutual Exclusion Condition: It specifies that the resources involved are non-sharable.
+
+2) Hold and Wait Condition: It specifies that there must be a process that is holding a resource already allocated to it while waiting for additional resource that are currently being held by other processes.
+
+3) No-Preemptive Condition: Resources cannot be taken away while they are being used by processes.
+
+4) Circular Wait Condition: It is an explanation of the second condition. It specifies that the processes in the system form a circular list or a chain where each process in the chain is waiting for a resource held by next process in the chain.
+
+19) What is a thread?
+A thread is a basic unit of CPU utilization. It consists of a thread ID, program counter, register set and a stack.
+
+20) What is FCFS?
+FCFS stands for First Come, First Served. It is a type of scheduling algorithm. In this scheme, if a process requests the CPU first, it is allocated to the CPU first. Its implementation is managed by a FIFO queue.
+
+23) What is deadlock? Explain.
+Deadlock is a specific situation or condition where two processes are waiting for each other to complete so that they can start. But this situation causes hang for both of them.
+
+24) Which are the necessary conditions to achieve a deadlock?
+There are 4 necessary conditions to achieve a deadlock:
+
+Mutual Exclusion: At least one resource must be held in a non-sharable mode. If any other process requests this resource, then that process must wait for the resource to be released.
+Hold and Wait: A process must be simultaneously holding at least one resource and waiting for at least one resource that is currently being held by some other process.
+No preemption: Once a process is holding a resource ( i.e. once its request has been granted ), then that resource cannot be taken away from that process until the process voluntarily releases it.
+Circular Wait: A set of processes { P0, P1, P2, . . ., PN } must exist such that every P[ i ] is waiting for P[ ( i + 1 ) % ( N + 1 ) ].
+Note: This condition implies the hold-and-wait condition, but it is easier to deal with the conditions if the four are considered separately.
+
+25) What is Banker's algorithm?
+
+Banker's algorithm is used to avoid deadlock. It is the one of deadlock-avoidance method. It is named as Banker's algorithm on the banking system where bank never allocates available cash in such a manner that it can no longer satisfy the requirements of all of its customers.
+
+26) What is the difference between logical address space and physical address space?
+Logical address space specifies the address that is generated by CPU. On the other hand physical address space specifies the address that is seen by the memory unit.
+
+27) What is fragmentation?
+Fragmentation is a phenomenon of memory wastage. It reduces the capacity and performance because space is used inefficiently.
+
+28) How many types of fragmentation occur in Operating System?
+There are two types of fragmentation:
+
+Internal fragmentation: It is occurred when we deal with the systems that have fixed size allocation units.
+External fragmentation: It is occurred when we deal with systems that have variable-size allocation units.
+29) What is spooling?
+Spooling is a process in which data is temporarily gathered to be used and executed by a device, program or the system. It is associated with printing. When different applications send output to the printer at the same time, spooling keeps these all jobs into a disk file and queues them accordingly to the printer.
+
+30) What is the difference between internal commands and external commands?
+Internal commands are the built-in part of the operating system while external commands are the separate file programs that are stored in a separate folder or directory.
+
+
+37) What is the difference between logical and physical address space?
+Logical address specifies the address which is generated by the CPU whereas physical address specifies to the address which is seen by the memory unit.
+
+After fragmentation
+
+38) What are overlays?
+Overlays makes a process to be larger than the amount of memory allocated to it. It ensures that only important instructions and data at any given time are kept in memory.
